@@ -2,7 +2,7 @@ BootStrap: shub
 From: ncu-walker/singularity-r:3.8.0
 
 %labels
-  Maintainer Jeremy Nicklas
+  Maintainer Alan Walker
   RStudio_Version 1.4.1717
 
 %help
@@ -38,7 +38,7 @@ From: ncu-walker/singularity-r:3.8.0
   wget \
     --no-verbose \
     -O rstudio-server.deb \
-    "https://download2.rstudio.org/server/trusty/amd64/rstudio-server-${RSTUDIO_VERSION}-amd64.deb"
+    "https://download2.rstudio.org/server/bionic/amd64/rstudio-server-${RSTUDIO_VERSION}-amd64.deb"
   gdebi -n rstudio-server.deb
   rm -f rstudio-server.deb
 
