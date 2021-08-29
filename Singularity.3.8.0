@@ -1,9 +1,9 @@
 BootStrap: shub
-From: nickjer/singularity-r:3.6.2
+From: ncu-walker/singularity-r:3.8.0
 
 %labels
   Maintainer Jeremy Nicklas
-  RStudio_Version 1.2.5033
+  RStudio_Version 1.4.1717
 
 %help
   This will run RStudio Server
@@ -27,7 +27,7 @@ From: nickjer/singularity-r:3.6.2
 
 %post
   # Software versions
-  export RSTUDIO_VERSION=1.2.5033
+  export RSTUDIO_VERSION=1.4.1717
 
   # Install RStudio Server
   apt-get update
